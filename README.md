@@ -40,6 +40,7 @@ Se preferir adicionar manualmente apenas as novas funcionalidades ao seu arquivo
 1. Baixe o arquivo `functions.php` no diretório do seu tema ativo (geralmente em `wp-content/themes/hello-elementor/functions.php`).
 2. Abra ele em seu editor e adicione o seguinte código ao final do arquivo functions.php:
 
+```php
 // Adicionar Menu no Painel de Administração
 function custom_stock_menu() {
     add_menu_page(
@@ -228,4 +229,4 @@ function custom_stock_scripts() {
     <?php
 }
 add_action('admin_footer', 'custom_stock_scripts');
-
+```
